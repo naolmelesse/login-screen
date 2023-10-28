@@ -197,6 +197,7 @@ export const Button = styled.button`
       width: 70%;
       border-radius: 0.5rem;
       @media (max-width: 480px) {
+          width: 100%;
           border-radius: 0.3rem;
           margin-top: 1rem;
           padding: 0.5rem;
@@ -222,6 +223,7 @@ export const GoogleButton = styled.button`
         font-size:0.8rem;
   }
     @media (max-width: 480px) {
+        width: 100%;
           margin-top: 0rem;
           margin-bottom: 1rem;
           border-radius: 0.3rem;
