@@ -174,6 +174,7 @@ export const LoginSelectOptionsWrapper = styled.div`
       
 export const LoginCheckbox = styled.div`
 display: flex;
+align-items: center;
 gap: 0.5rem;
 @media (max-width: 480px) {
     gap: 0.2rem;
