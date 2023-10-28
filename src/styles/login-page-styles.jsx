@@ -91,8 +91,10 @@ export const InputLoginID = styled.input`
     outline: none;
     border: 0.1rem solid gray;
     padding: 1rem;
-    background: none;
     font-size: 1rem;
+    &:active, &:focus{
+        border: 0.1rem solid #F79F24;
+    }
     `;
     
     export const InputPasswordWrapper = styled.div`
@@ -103,9 +105,12 @@ export const InputLoginID = styled.input`
     border-radius: 0.5rem;
     padding-right: 1rem;
     overflow: hidden;
+    &:focus-within {
+        border: 0.1rem solid #F79F24;
+      }
     `;
     
-    export const InputPassword = styled.input`
+export const InputPassword = styled.input`
     font-size: 1rem;
     width: 100%;
     padding: 1rem;
@@ -133,8 +138,7 @@ export const InputFieldWrapper = styled.div`
 
     input:hover,
     input:focus,
-    input:valid,
-    input:active {
+    input:valid {
         background: none;
     }
 
